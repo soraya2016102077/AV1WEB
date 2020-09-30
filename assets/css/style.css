@@ -1,65 +1,46 @@
 /*
-    Glossary
-    1 - Aluno
-    2 - Dashboard
-    3 - Login
+  Glossary
+  1 - Aluno
+  2 - Dashboard
+  3 - Login
 */
 
 /* 1 - Aluno */
 /* 2 - Dashboard */
-div.flex-dashboard {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  width: 100%;
+.sidebar {
+  background: #f8f8f8;
+  height: 100vh;
 }
 
-sidebar {
-  display: block;
-  height: 100%;
-  width: 300px;
-  background: rgb(224, 224, 224);
+.nomeAluno {
+  padding: 40px 0 0 20px;
 }
 
-main {
-  display: block;
-  height: 100%;
-  background-color: rgb(172, 185, 112);
-  width: calc(100% - 300px);
+.itens-menu ul {
+  list-style: none;
+  padding: 0 0 0 20px;
+  margin: 0;
 }
 
-.flex-dashboard header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 50px;
-  background-color: cornsilk;
-  padding: 0 30px;
-}
-sidebar .sidebar-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 30px;
-}
-sidebar .sidebar-title img {
-}
-sidebar .sidebar-title h2 {
-  font-size: 18px;
-  margin-top: 5px;
+.itens-menu ul li {
+  border-bottom: 1px solid #666;
+  padding: 10px 0px;
 }
 
-.menu {
+.itens-menu ul li:hover {
+  background-color: #f2f2f2;
 }
-.menu ul {
+
+.itens-menu ul li:hover a {
+  color: #0056b3;
 }
-.menu ul li {
-  margin: 10px;
+
+.itens-menu ul li a {
+  padding-left: 10px;
+  color: #000;
+  text-decoration: none;
 }
-.menu a {
-}
+
 /* 3 - Login */
 a.active {
   background-color: #f2f2f2 !important;
