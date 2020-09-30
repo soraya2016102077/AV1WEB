@@ -1,0 +1,63 @@
+/*
+    Glossary
+    1 - Aluno
+    2 - Dashboard
+    3 - Login
+*/
+
+/* 1 - Aluno */
+/* 2 - Dashboard */
+div.flex-dashboard {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+sidebar {
+  display: block;
+  height: 100%;
+  width: 300px;
+  background: rgb(224, 224, 224);
+}
+
+main {
+  display: block;
+  height: 100%;
+  background-color: rgb(172, 185, 112);
+  width: calc(100% - 300px);
+}
+
+.flex-dashboard header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  background-color: cornsilk;
+  padding: 0 30px;
+}
+sidebar .sidebar-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+}
+sidebar .sidebar-title img {
+}
+sidebar .sidebar-title h2 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.menu {
+}
+.menu ul {
+}
+.menu ul li {
+  margin: 10px;
+}
+.menu a {
+}
+/* 3 - Login */
