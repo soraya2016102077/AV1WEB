@@ -43,11 +43,11 @@
                                     Turma</label>
                                 <select class="form-control" id="selecioneTurma">
                                     <option>Selecione ...</option>
-                                    <option>Turma 0001-2020</option>
-                                    <option>Turma 0002-2020</option>
-                                    <option>Turma 0003-2020</option>
-                                    <option>Turma 0004-2020</option>
-                                    <option>Turma 0005-2020</option>
+                                    <option>Turma 831</option>
+                                    <option>Turma 852</option>
+                                    <option>Turma 861</option>
+                                    <option>Turma 862</option>
+                                    <option>Turma 863</option>
                                 </select>
                             </div>
                         </form>
@@ -60,19 +60,30 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="box p-3 mb-4">Desvio Padrão</div>
+                        <div class="box p-3 mb-4">
+                            <canvas id="desvio" height="200"></canvas>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="box p-3 mb-4">Quartis de Notas</div>
+                        <div class="box p-3 mb-4">
+                            <canvas id="quartil" height="200"></canvas>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="box p-3 mb-4">Historigrama das Notas</div>
+                        <div class="box p-3 mb-4">
+                            <canvas id="histograma" height="200"></canvas>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="box p-3 mb-4">Maior e Menor Nota</div>
+                        <div class="box p-3 mb-4">
+                            <canvas id="mm" height="200"></canvas>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="box p-3 mb-4">Aprovados</div>
+                        <div class="box p-3 mb-4">
+                            <canvas id="percapro" height="200"></canvas>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
