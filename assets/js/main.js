@@ -1,6 +1,11 @@
 // Tooltips
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip();
+});
+
+// MOdal de MEnsagens
+$('#myModal').on('shown.bs.modal', function () {
+	$('#myInput').trigger('focus')
 })
 
 // Chart.js
