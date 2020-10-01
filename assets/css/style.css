@@ -41,6 +41,11 @@
   text-decoration: none;
 }
 
+.box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 /* 3 - Login */
 a.active {
   background-color: #f2f2f2 !important;

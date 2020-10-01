@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Listar de Notas</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <h4 class="nomeAluno">Soraya A. L. Ribeiro</h4>
+
+                <div class="itens-menu mt-5">
+                    <ul>
+                        <li><a href="./dashboard.html"> <i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
+                        <li><a href="./editar-perfil.html"> <i class="far fa-edit"></i> Editar Perfil</a> </li>
+                        <li><a href="./cadastro-notas.html"> <i class="far fa-save"></i> Cadastrar Notas</a> </li>
+                        <li><a href="./listar-notas.html"> <i class="far fa-edit"></i> Exibir Notas</a> </li>
+                        <li><a href="#"> <i class="fas fa-sign-out-alt"></i> Sair</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="row pb-5 mt-3">
+                    <div class="col-md-12">
+                        <h1>Listar de Notas</h1>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-2">
+                        <form>
+                            <div class="form-group">
+                                <label for="selecioneTurma" class="text-uppercase font-weight-bold">Selecione A
+                                    Turma</label>
+                                <select class="form-control" id="selecioneTurma">
+                                    <option>Selecione ...</option>
+                                    <option>Turma 0001-2020</option>
+                                    <option>Turma 0002-2020</option>
+                                    <option>Turma 0003-2020</option>
+                                    <option>Turma 0004-2020</option>
+                                    <option>Turma 0005-2020</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <form>
+                            <div class="form-group">
+                                <label for="selecioneTurma" class="text-uppercase font-weight-bold">Selecione
+                                    Aluno</label>
+                                <select class="form-control" id="selecioneTurma">
+                                    <option>Selecione ...</option>
+                                    <option>Anderson Martins</option>
+                                    <option>Soraya Ribeiro</option>
+                                    <option>Ricardo Sobral</option>
+                                    <option>Lidiane Lima</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">AV1</th>
+                                    <th scope="col">AV2</th>
+                                    <th scope="col">AV3</th>
+                                    <th scope="col">Média</th>
+                                    <th scope="col">Situação</th>
+                                    <th scope="col">Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">APS</th>
+                                    <td>5.5</td>
+                                    <td>2.9</td>
+                                    <td>---</td>
+                                    <td>7.8</td>
+                                    <td>Recuperação</td>
+                                    <td>
+                                        <a href="./editar-notas.html"> <i class="far fa-edit text-warning"></i> </a> | <a href="#"> <i class="far fa-trash-alt text-danger"></i> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Trabalho</th>
+                                    <td>3.5</td>
+                                    <td>2.9</td>
+                                    <td>8.7</td>
+                                    <td>---</td>
+                                    <td>---</td>
+                                    <td>
+                                        <a href="#"> <i class="far fa-edit text-warning"></i> </a> | <a href="#"> <i class="far fa-trash-alt text-danger"></i> </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
