@@ -43,33 +43,33 @@ let mediaNotas = new Chart(ctx, {
 })
 
 let ctx1 = document.getElementById('desvio').getContext('2d');
-var desvio = new Chart(ctx1, {
+let desvio = new Chart(ctx1, {
 	type: 'line',
-	
-    data: {
-        datasets: [{
-            label: 'DESVIO PADRÃO',
-            data: [{
-                x: 0,
-                y: 0
+
+	data: {
+		datasets: [{
+		    label: 'DESVIO PADRÃO',
+		    data: [{
+		        x: 0,
+		        y: 0
 			}, {
-                x: 7,
-                y: 3
+		        x: 7,
+		        y: 3
 			}, 
 			{
-                x: 10,
-                y: 10
-            }]
-        }]
-    },
-    options: {
-        scales: {
-            xAxes: [{
-                type: 'linear',
-                position: 'bottom'
-            }]
-        }
-    }
+		        x: 10,
+		        y: 10
+		    }]
+		}]
+	},
+	options: {
+		scales: {
+			xAxes: [{
+				type: 'linear',
+				position: 'bottom'
+			}]
+		}
+	}
 })
 
 let ctx2 = document.getElementById('quartil').getContext('2d');
@@ -141,7 +141,7 @@ let mm = new Chart(ctx4, {
 		labels: ['MAIOR', 'MENOR'],
 		datasets: [{
 			label: 'MAIOR E MENOR NOTAS',
-			data: [ 9.5, 4.5],
+			data: [9.5, 4.5],
 			backgroundColor: [
 				'rgba(255, 99, 132, 0.2)',
 				'rgba(54, 162, 235, 0.2)',
@@ -172,7 +172,7 @@ let percapro = new Chart(ctx5, {
 		labels: ['APROVADOS'],
 		datasets: [{
 			label: 'PERCENTUAL DE APROVAÇÃO',
-			data: [ 91],
+			data: [91],
 			backgroundColor: [
 				'rgba(255, 99, 132, 0.2)',
 				'rgba(54, 162, 235, 0.2)',
@@ -188,7 +188,7 @@ let percapro = new Chart(ctx5, {
 	},
 	options: {
 		scales: {
-			
+
 			yAxes: [{
 				ticks: {
 					beginAtZero: true
@@ -196,5 +196,4 @@ let percapro = new Chart(ctx5, {
 			}]
 		}
 	}
-})
-;
+});

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Listar Disciplinas</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <h4 class="nomeAluno">Soraya A. L. Ribeiro</h4>
+
+                <div class="itens-menu mt-5">
+                    <ul>
+                        <li><a href="./dashboard.html"> <i class="fas fa-tachometer-alt"></i> Dashboard</a> </li>
+                        
+                        <li><a href="./cadastro-notas.html"> <i class="far fa-save"></i> Cadastrar Notas</a> </li>
+                        <li><a href="./listar-notas.html"> <i class="far fa-edit"></i> Exibir Notas</a> </li>
+                        <li><a href="./listar-disciplina.html"> <i class="fas fa-tachometer-alt"></i> Listar Disciplinas</a> </li>
+                        <li><a href="/index.html"> <i class="fas fa-sign-out-alt"></i> Sair</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="row pb-5 mt-3">
+                    <div class="col-md-12">
+                        <h1>Lista de Notas</h1>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <form>
+                            <div class="form-group">
+                                <label for="selecioneTurma" class="text-uppercase font-weight-bold">Selecione A
+                                    Disciplina</label>
+                                <select class="form-control" id="selecioneTurma">
+                                    <option>Desenvolvimento de aplicações WEB</option>
+                                    <option>Circuitos Digitais</option>
+                                    <option>Algoritmos II</option>
+                                    <option>Programação Estruturada</option>
+                                    <option>Segurança da Internet</option> 
+                                    <option>Arquitetura de Redes de Computadores</option>
+                                    <option>Ética e Responsabilidade Social</option>
+                                    <option>Estatística</option>
+                                    <option>Matemática Discreta</option>
+                                    <option>Banco de Dados</option> 
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                        <form>
+                            <div class="form-group">
+                                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">AV1</th>
+                                    <th scope="col">AV2</th>
+                                    <th scope="col">AV3</th>
+                                    <th scope="col">Média</th>
+                                    <th scope="col">Situação</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Trabalho</th>
+                                    <td>7.0</td>
+                                    <td>8.0</td>
+                                    <td>9.7</td>
+                                    <td>10.0</td>
+                                    <td>Aprovado</td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">APS</th>
+                                    <td>3.0</td>
+                                    <td>2.0</td>
+                                    <td>---</td>
+                                    <td>___</td>
+                                    <td></td>
+                                    <td> 
+                                          
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
